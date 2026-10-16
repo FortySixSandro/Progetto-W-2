@@ -117,3 +117,44 @@ header .logo {
 }
 
 .cardBody a{color: rgb(0, 89, 255);}
+
+/* SECTION PRODOTTI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION FOOTER */
+
+footer {
+  padding: 50px 24px;
+  background: #232F3E;
+}
+
+.footerCol {
+  display: inline-block;
+  width: 33%;
+}
+
+.footerCol h4 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.footerCol a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
