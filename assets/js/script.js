@@ -21,7 +21,7 @@ const prodotti = [
    {
       name: 'Cuffie',
       category: 'Elettronica',
-      price: 89,
+      price: 89.99,
       rating: 4,
       image: null,
       available: true,
@@ -29,7 +29,7 @@ const prodotti = [
    {
       name: 'Tablet',
       category: 'Elettronica',
-      price: 199,
+      price: 199.9,
       rating: 5,
       image: null,
       available: false,
@@ -43,7 +43,7 @@ const prodotti = [
       available: true,
    },
    {
-      name:'Smartwatch',
+      name: 'Smartwatch',
       category: 'Elettronica',
       price: 119,
       rating: 4,
@@ -51,23 +51,23 @@ const prodotti = [
       available: true,
    },
    {
-      name:'Lampada',
+      name: 'Lampada',
       category: 'Casa',
-      price: 29,
+      price: 29.50,
       rating: 3,
       image: null,
       available: true,
    },
    {
-      name:'Caffettiera',
+      name: 'Caffettiera',
       category: 'Casa',
       price: 22,
-      rating: 5,
+      rating: 2,
       image: null,
       available: true,
    },
    {
-      name:'Libro',
+      name: 'Libro',
       category: 'Libri',
       price: 14,
       rating: 4,
@@ -75,15 +75,15 @@ const prodotti = [
       available: true,
    },
    {
-      name:'Cappello',
+      name: 'Cappello',
       category: 'Abbigliamento',
-      price: 27,
-      rating: 3,
+      price: 12,
+      rating: 2,
       image: null,
       available: true,
    },
    {
-      name:'Collana',
+      name: 'Collana',
       category: 'Abbigliamento',
       price: 124,
       rating: 5,
@@ -91,7 +91,7 @@ const prodotti = [
       available: false,
    },
    {
-      name:'Scarpe',
+      name: 'Scarpe',
       category: 'Abbigliamento',
       price: 149,
       rating: 4,
@@ -99,15 +99,15 @@ const prodotti = [
       available: true,
    },
    {
-      name:'TV',
+      name: 'TV',
       category: 'Elettronica',
       price: 122,
-      rating: 4,
+      rating: 3,
       image: null,
       available: true,
    },
    {
-      name:'Armadio',
+      name: 'Armadio',
       category: 'Casa',
       price: 399,
       rating: 4,
@@ -123,6 +123,8 @@ const prodotti = [
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 
 /* VERSIONE INTERMEDIA — stelline(rating)
