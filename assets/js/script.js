@@ -123,15 +123,14 @@ const prodotti = [
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function formattaPrezzo(prezzo) {
+function formattaPrezzo() {
 
    for (let i = 0; i < prodotti.length; i++) {
-      console.log(prodotti[i].price)
-      return `€ ${prezzo.toFixed}`
+      console.log(`€ ${prodotti[i].price}`);
    }
 
 }
-formattaPrezzo(prodotti);
+formattaPrezzo();
 
 /* VERSIONE INTERMEDIA — stelline(rating)
    Funzione che ritorna una stringa di stelline piene/vuote.
@@ -146,6 +145,17 @@ formattaPrezzo(prodotti);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function filtroPerCategoria(category) {
+
+   for (let i = 0; i < prodotti.length; i++) {
+      if (prodotti[i].category === category) {
+         console.log(prodotti[i].name);
+      }
+   }
+}
+filtroPerCategoria("");
+
 
 /* VERSIONE INTERMEDIA — Filtro disponibilità e rating
    Funzione che genera un array filtrato dall'array prodotti, mostrando soltanto i prodotti disponibili con rating >= 3
