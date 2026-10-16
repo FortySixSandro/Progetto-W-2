@@ -126,7 +126,7 @@ const prodotti = [
 function formattaPrezzo() {
 
    for (let i = 0; i < prodotti.length; i++) {
-      console.log(`€ ${prodotti[i].price}`);
+      console.log(`${prodotti[i].name}: €${prodotti[i].price.toFixed(2)}`);
    }
 
 }
