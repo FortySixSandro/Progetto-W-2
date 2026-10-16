@@ -16,6 +16,106 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const prodotti = [
+
+   {
+      name: 'Cuffie',
+      category: 'Elettronica',
+      price: 89,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name: 'Tablet',
+      category: 'Elettronica',
+      price: 199,
+      rating: 5,
+      image: null,
+      available: false,
+   },
+   {
+      name: 'Mouse',
+      category: 'Elettronica',
+      price: 24,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Smartwatch',
+      category: 'Elettronica',
+      price: 119,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Lampada',
+      category: 'Casa',
+      price: 29,
+      rating: 3,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Caffettiera',
+      category: 'Casa',
+      price: 22,
+      rating: 5,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Libro',
+      category: 'Libri',
+      price: 14,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Cappello',
+      category: 'Abbigliamento',
+      price: 27,
+      rating: 3,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Collana',
+      category: 'Abbigliamento',
+      price: 124,
+      rating: 5,
+      image: null,
+      available: false,
+   },
+   {
+      name:'Scarpe',
+      category: 'Abbigliamento',
+      price: 149,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name:'TV',
+      category: 'Elettronica',
+      price: 122,
+      rating: 4,
+      image: null,
+      available: true,
+   },
+   {
+      name:'Armadio',
+      category: 'Casa',
+      price: 399,
+      rating: 4,
+      image: null,
+      available: false,
+   },
+
+]
 
 /* VERSIONE INTERMEDIA — formattaPrezzo(prezzo)
    Funzione che ritorna una stringa tipo "€ 19,99".
