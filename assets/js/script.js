@@ -140,6 +140,26 @@ formattaPrezzo();
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function stelline(rating) {
+   switch (rating) {
+      case 1:
+         return `Rating ${rating} ★☆☆☆☆`
+
+      case 2:
+         return `Rating ${rating} ★★☆☆☆`
+
+      case 3:
+         return `Rating ${rating} ★★★☆☆`
+
+      case 4:
+         return `Rating ${rating} ★★★★☆`
+
+      case 5:
+         return `Rating ${rating} ★★★★★`
+   }
+   return rating
+}
+console.log(stelline(5))
 /* VERSIONE INTERMEDIA — Filtro per categoria
    Funzione che riceve il parametro categoria e filtra l'array prodotti mostrando solo i prodotti della categoria ricevuta
 */
@@ -166,8 +186,8 @@ filtroPerCategoria("Elettronica");
 function filtroRating(rating) {
 
    for (let i = 0; i < prodotti.length; i++) {
-      if (prodotti[i].rating >=3) {
-         console.log(`${prodotti[i].name} - Rating: ${prodotti[i].rating}`);
+      if (prodotti[i].rating >= 3) {
+         console.log(`${prodotti[i].name} - ${stelline(prodotti[i].rating)}`);
       }
    }
 }
