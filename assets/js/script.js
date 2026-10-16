@@ -154,7 +154,7 @@ function filtroPerCategoria(category) {
       }
    }
 }
-filtroPerCategoria("");
+filtroPerCategoria("Abbigliamento");
 
 
 /* VERSIONE INTERMEDIA — Filtro disponibilità e rating

@@ -34,7 +34,6 @@ header {
   width: 100%;
   padding: 15px 24px;
   background: #131921;
-  font-size: 0; /* elimina i buchi tra gli inline-block */
   position: sticky; top: 0;
 }
 
@@ -208,6 +207,7 @@ footer {
   padding: 50px 24px;
   background: #232F3E;
   font-size: 0;
+  text-align: center;
 }
 
 .footerCol {
