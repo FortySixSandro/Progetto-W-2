@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon Homepage — Week Project</title>
-  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/03eb2181c5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
 
+<body>
+  <!-- Logo, barra di ricerca, link Account / Ordini / Carrello -->
   <header>
-    <!-- Logo, barra di ricerca, link Account / Ordini / Carrello -->
+
+      <a href="#"><i class="fa-brands fa-amazon logo"></i></a>
+      <input class="searchIn" placeholder="Cerca prodotti, categorie, brand..." type="text">
+      <button class="searchBtn" type="submit">Cerca</button>
+
+    <div class="nav">
+      <a href="#">Account</a>
+      <a href="#">Ordini</a>
+      <a class="cart" href="#">Carrello (0)</a>
+    </div>
   </header>
 
   <main>
 
     <section class="hero">
       <!-- Titolo grande, sottotitolo -->
+      <h1>Le offerte di oggi</h1>
+      <p>Sconti fino al 70% su elettronica, libri, casa e molto altro</p>
     </section>
 
     <section class="categorie">
@@ -34,4 +48,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

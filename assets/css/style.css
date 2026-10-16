@@ -29,4 +29,72 @@ button {
   background: none;
 }
 
-/* Scrivi qui sotto i tuoi stili */
+/* Header */
+
+header {
+  width: 100%;
+  padding: 15px 24px;
+  background: #131921;
+  font-size: 0; /* elimina i buchi tra gli inline-block */
+}
+
+header .logo,
+.searchIn,
+.searchBtn,
+.nav {
+  display: inline-block;
+  height: 35px;
+  vertical-align: middle;
+}
+
+header .logo {
+  height: 1em;           /* l'svg segue il font-size */
+  margin-right: 24px;
+  color: orange;
+  font-size: 28px;
+}
+
+.searchIn {
+  width: 62%;
+  padding: 0 14px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.searchBtn {
+  width: 8%;
+  background-color: #FEBD69;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav {width: 20%;}
+
+.nav a {
+  display: inline-block;
+  height: 40px;
+  margin-left: 16px;
+  line-height: 40px;     /* centra il testo in verticale */
+  color: #fff;
+  font-size: 13px;
+}
+
+.cart {
+  background-color: #232F3E;
+  padding: 0 14px;
+  border-radius: 4px;
+}
+
+/* SECTION HERO */
+
+.hero{
+  background-color: #303F51;
+  text-align: center;
+  color: #fff;
+  padding: 60px;
+}
+
+.hero h1{margin-bottom: 16px;}
