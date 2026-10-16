@@ -167,7 +167,7 @@ function filtroRating(rating) {
 
    for (let i = 0; i < prodotti.length; i++) {
       if (prodotti[i].rating >=3) {
-         console.log(`${prodotti[i].name} -- Rating: ${prodotti[i].rating}`);
+         console.log(`${prodotti[i].name} - Rating: ${prodotti[i].rating}`);
       }
    }
 }
