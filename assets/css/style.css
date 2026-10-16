@@ -131,6 +131,8 @@ header .logo {
   padding: 10px;
 }
 
+.cardHov:hover{margin-top: -2px;}
+
 /* scheda bianca comune a categorie e prodotti */
 .box {
   background: #fff;
@@ -159,6 +161,7 @@ header .logo {
   color: #007185;
 }
 
+.cardBody a:hover{color: #FF9900; text-decoration: underline;}
 /* SECTION PRODOTTI */
 
 .productBox {
@@ -200,6 +203,8 @@ header .logo {
   font-size: 13px;
 }
 
+.addBtn:hover{background: #F7CA00;}
+
 /* SECTION FOOTER */
 
 footer {
@@ -228,3 +233,5 @@ footer {
   font-size: 14px;
   margin-bottom: 12px;
 }
+
+.footerCol a:hover{text-decoration: underline;}
